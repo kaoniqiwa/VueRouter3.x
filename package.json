@@ -1,0 +1,30 @@
+{
+  "name": "vuerouter3.x",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "rollup:serve": "rollup -c -w --bundleConfigAsCjs ",
+    "webpack:serve": "webpack --watch",
+    "webpack:dev": "webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.1",
+    "@rollup/plugin-typescript": "^11.1.3",
+    "@types/node": "^20.5.9",
+    "html-webpack-plugin": "^5.5.3",
+    "rollup": "^3.29.0",
+    "ts-loader": "^9.4.4",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-chain": "^6.5.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "webpack-merge": "^5.9.0"
+  }
+}
